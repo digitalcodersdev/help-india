@@ -21,5 +21,9 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+<!-- Manullay added -->
+        <!-- <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-1707683176830560~8817350713"/> -->
     </application>
 </manifest>

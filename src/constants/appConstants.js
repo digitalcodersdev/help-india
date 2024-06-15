@@ -1,0 +1,6 @@
+const APP_CONSTAINTS = {
+  DEV_MODE: 'PRODUCTION',
+  // DEV_MODE: 'DEVELOPMENT',
+};
+
+export default APP_CONSTAINTS;
