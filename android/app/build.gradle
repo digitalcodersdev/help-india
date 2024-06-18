@@ -116,7 +116,10 @@ dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
     // Manually added the next line 
+    implementation project(':react-native-vector-icons')
     implementation 'com.google.android.gms:play-services-ads:23.1.0'
+    implementation project(':react-native-fs')
+    implementation project(':rn-fetch-blob') 
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
@@ -126,3 +129,4 @@ dependencies {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
